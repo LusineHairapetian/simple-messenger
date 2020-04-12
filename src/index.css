@@ -1,0 +1,71 @@
+body {
+  background-color: #282c34;
+  margin: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.messenger-header {
+  font-size: calc(20px + 2vmin);
+  text-align: center;
+}
+
+.friends-menu {
+  height: 100%;
+}
+
+.chat {
+  position: relative;
+  margin: 20px 15px;
+  height: 870px;
+}
+
+.history {
+  text-align: right;
+  overflow-y: scroll;
+  height: calc(100% - 75px);
+}
+.message-row {
+  float: right;
+  width: 100%;
+  padding: 5px;
+}
+.message {
+  word-wrap: break-word;
+  background: #1890ffbd;
+  border-radius: 5px;
+  padding: 0 7px;
+  float: right;
+  max-width: 80%;
+  width: auto;
+  text-align: left;
+  font-size: 20px;
+}
+
+.message-input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ant-typography.ant-typography-ellipsis {
+  color: white !important;
+}
+
+.ant-layout-header {
+  color: white !important;
+}
+
+div.ant-typography, .ant-typography p {
+  margin: 0 !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
